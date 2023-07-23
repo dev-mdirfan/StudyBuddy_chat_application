@@ -1,5 +1,11 @@
 # Study Buddy - Chat Room Application
 
+<div align="center">
+<img width="30%" src="https://github.com/dev-mdirfan/StudyBuddy_chat_application/assets/95459570/9ce7a30c-a825-42df-a013-0e10a5d69981">
+
+# StudyBuddy
+</div>
+
 - Resources - [Theme](fronend_theme/)
 - Concepts - [Django Concepts](docs/concepts.md)
 - Extensions - Atom One Dark Theme, Prettier, Auto Rename Tag
