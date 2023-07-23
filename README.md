@@ -1,35 +1,56 @@
 # Study Buddy - Chat Room Application
 
 - Resources - [Theme](fronend_theme/)
-- Extensions - Atom One Dark Theme, Prettier, Auto Rename Tag
 - Concepts - [Django Concepts](docs/concepts.md)
+- Extensions - Atom One Dark Theme, Prettier, Auto Rename Tag
 
+### Cloning the repository
 
-**Install Virtual Environment:**
-```shell
-pip install virtualenv
+--> Clone the repository using the command below :
+```bash
+git clone https://github.com/dev-mdirfan/StudyBuddy_chat_application.git
+
 ```
 
-**Create Virtual Env:**
+--> Move into the directory where we have the project files : 
+```bash
+cd StudyBud
+
+```
+
+--> Create Virtual Environment :
 ```shell
+# Let's install virtualenv first
+pip install virtualenv
+
+# Then we create our virtual environment
 virtualenv env
 ```
 
-**Activate Env:**
+--> Activate Env :
 ```shell
 env\Scripts\activate
 ```
-- To do deactivate Env:
+
+--> To do deactivate Env :
 ```shell
 env\Scripts\deactivate
 ```
 
-**Install Django:**
+--> Install the requirements :
+```bash
+pip install -r requirements.txt
+
+```
+
+**OR:**
+
+--> Install Django :
 ```shell
 pip install django
 ```
 
-**Create Project:**
+--> Create Project :
 ```shell
 django-admin startproject studybud .
 ```
@@ -40,35 +61,37 @@ django-admin startproject studybud .
   - startapp
   - startproject
 
-**Run Server:**
+--> Run Server :
 ```shell
 python manage.py runserver
 ```
 
-**Create App:**
+> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+
+--> Create App :
 ```shell
 python manage.py startapp base
 ```
 
-**Before creating model run migrate:**
+--> Before creating model run migrate :
 ```shell
 python mana.py migrate
 ```
 
 
-**Create Model then Make Migration:**
+--> Create Model then Make Migration :
 ```shell
 python manage.py makemigrations
 # then
 python manage.py migrate
 ```
 
-**Create Admin Dashboard Account:**
+--> Create Admin Dashboard Account :
 ```shell
 python manage.py createsuperuser
 ```
 
-**Register Your Model to view in the admin panel:**
+--> Register Your Model to view in the admin panel :
 ```shell
 from .models import Room
 # Register your models here.
@@ -77,7 +100,8 @@ admin.site.register(Room)
 ```
 
 
-### Resources
+
+#### Resources
 
 - Github Dennis Ivy [StudyBud](https://github.com/divanov11/StudyBud)
 
