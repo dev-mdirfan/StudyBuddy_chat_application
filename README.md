@@ -1,16 +1,9 @@
-# 7 Hours Django Course by DennisIvy
+# Study Buddy - Chat Room Application
 
-![What is django](docs/img/what-is-django.png)
-![What is web framework](docs/img/what-is-web-framework.png)
-![Backend vs Frontend Frameworks](docs/img/backend-vs-frontend-frameworks.png)
-![Django Popular Apps](docs/img/django-example-apps.png)
-![Django APIs](docs/img/django-api.png)
-![Other Python Frameworks](docs/img/other-python-frameworks.png)
-![MVT](docs/img/mvt.png)
-![MVT](docs/img/lets-get-started.png)
-
-- Resources - Github Dennis Ivy [StudyBud](https://github.com/divanov11/StudyBud)
+- Resources - [Theme](fronend_theme/)
 - Extensions - Atom One Dark Theme, Prettier, Auto Rename Tag
+- Concepts - [Django Concepts](docs/concepts.md)
+
 
 **Install Virtual Environment:**
 ```shell
@@ -81,9 +74,11 @@ from .models import Room
 # Register your models here.
 
 admin.site.register(Room)
-
 ```
 
 
+### Resources
+
+- Github Dennis Ivy [StudyBud](https://github.com/divanov11/StudyBud)
 
 
