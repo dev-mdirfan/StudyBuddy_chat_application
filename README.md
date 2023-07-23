@@ -3,7 +3,28 @@
 <div align="center">
 <img width="30%" src="https://github.com/dev-mdirfan/StudyBuddy_chat_application/assets/95459570/9ce7a30c-a825-42df-a013-0e10a5d69981">
 
-# StudyBuddy
+### App Preview :
+
+<table width="100%"> 
+<tr>
+<td width="50%">      
+&nbsp; 
+<br>
+<p align="center">
+  Feed Home
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
+</td> 
+<td width="50%">
+<br>
+<p align="center">
+  Room Conversation Preview
+</p>
+<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
+</td>
+</table>
+
+<h1>StudyBuddy</h1>
 </div>
 
 - Resources - [Theme](fronend_theme/)
