@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Added By ME
     'base.apps.BaseConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,44 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+# admin
+# Username: irfan
+# password: 12345
+
+# testuser2
+# username: tim
+# password: tim12345
+
+# testuser3
+# username: erik
+# password: erik12345
+
+# Testuser4
+# username: john
+# password: john12345
+
+# Testuser5
+# username: todd
+# password: todd12345
+'''

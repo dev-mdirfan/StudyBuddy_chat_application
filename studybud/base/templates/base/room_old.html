@@ -1,0 +1,24 @@
+        <div class="comment-wrapper">
+            <h3>Conversation</h3>
+            <hr>
+            
+            <div>
+                
+                <a href="">Delete</a>
+                {% endif %}
+                <small>@{{message.user}} {{ message.created|timesince }} ago</small>
+                <p>{{ message.body }}</p>
+                <hr>
+            </div>
+        </div>
+        
+        {% if request.user.is_authenticated %}
+        <div class="comment-form">
+            <form action="" method="POST">
+                {% csrf_token %}
+                <input type="text" name="body" placeholder="Write you message here...">
+            </form>
+        </div>
+        {% endif %}
+    </div>
+
