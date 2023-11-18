@@ -1,0 +1,10 @@
+﻿asgiref
+autopep8
+Django
+django-cors-headers
+djangorestframework
+Pillow
+pycodestyle
+pytz
+sqlparse
+toml
