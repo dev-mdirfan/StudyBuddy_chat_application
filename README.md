@@ -1,151 +1,60 @@
-# Study Buddy - Chat Room Application
+# DevStudy - A chat room for developers
 
-<div align="center">
-<img width="30%" src="https://github.com/dev-mdirfan/StudyBuddy_chat_application/assets/95459570/9ce7a30c-a825-42df-a013-0e10a5d69981">
+## Description
 
-### App Preview :
+DevStudy is a chat room for developers to discuss about programming languages, frameworks, libraries, etc. It is a place where developers can share their knowledge and learn from each other.
 
-<table width="100%"> 
-<tr>
-<td width="50%">      
-&nbsp; 
-<br>
-<p align="center">
-  Feed Home
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
-</td> 
-<td width="50%">
-<br>
-<p align="center">
-  Room Conversation Preview
-</p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
-</td>
-</table>
+## Features
 
-<h1>StudyBuddy</h1>
-</div>
+- [x] User can sign up and sign in with email and password
+- [x] User can sign in with Google account
+- [x] User can create a new room
+- [x] User can join a room 
+- [x] User can send messages in a room
+- [x] User can see the list of rooms (home feed)
+- [x] User can see the list of members in a room (all participants)
 
-- Resources - [Theme](fronend_theme/)
-- Concepts - [Django Concepts](docs/concepts.md)
-- Extensions - Atom One Dark Theme, Prettier, Auto Rename Tag
+## Technologies
 
-### Cloning the repository
+- Django
+- Django REST Framework
+- HTML
+- CSS
+- JavaScript
 
---> Clone the repository using the command below :
+## Installation
+
+1. Clone the project to your local directory
+
 ```bash
-git clone https://github.com/dev-mdirfan/StudyBuddy_chat_application.git
-
+git clone 
 ```
 
---> Move into the directory where we have the project files : 
+2. Create a virtual environment
+
 ```bash
-cd StudyBud
-
+python -m venv venv
 ```
 
---> Create Virtual Environment :
-```shell
-# Let's install virtualenv first
-pip install virtualenv
+3. Activate the virtual environment
 
-# Then we create our virtual environment
-virtualenv env
+```bash
+.\venv\Scripts\activate
 ```
 
---> Activate Env :
-```shell
-env\Scripts\activate
-```
+4. Install the dependencies
 
---> To do deactivate Env :
-```shell
-env\Scripts\deactivate
-```
-
---> Install the requirements :
 ```bash
 pip install -r requirements.txt
-
 ```
 
-**OR:**
+5. Run the server
 
---> Install Django :
-```shell
-pip install django
-```
-
---> Create Project :
-```shell
-django-admin startproject studybud .
-```
-- Most Useful Commands:
-  - makemigrations
-  - migrate
-  - runserver
-  - startapp
-  - startproject
-
---> Run Server :
-```shell
+```bash
 python manage.py runserver
 ```
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+## License
 
---> Create App :
-```shell
-python manage.py startapp base
+[MIT](https://choosealicense.com/licenses/mit/)
 ```
-
---> Before creating model run migrate :
-```shell
-python mana.py migrate
-```
-
-
---> Create Model then Make Migration :
-```shell
-python manage.py makemigrations
-# then
-python manage.py migrate
-```
-
---> Create Admin Dashboard Account :
-```shell
-python manage.py createsuperuser
-```
-
---> Register Your Model to view in the admin panel :
-```shell
-from .models import Room
-# Register your models here.
-
-admin.site.register(Room)
-```
-
-
-
-#### Resources
-
-- Github Dennis Ivy [StudyBud](https://github.com/divanov11/StudyBud)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

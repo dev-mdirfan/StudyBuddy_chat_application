@@ -1,4 +1,9 @@
-/studybud/env
-/backend/studybud/env
+# /studybud/env
+# /backend/studybud/env
+
+env/
+*env/
+venv/
+*venv/
 
 
